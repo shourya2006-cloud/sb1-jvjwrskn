@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { PlusCircle, BookOpenCheck, Clock, Check, X, Info, Edit, Trash, Search, MessageCircle } from 'lucide-react';
+import { PlusCircle, BookOpenCheck, Clock, Check, X, Info, Edit, Trash, Search, MessageCircle, User } from 'lucide-react';
 import { useBooks } from '../context/BookContext';
 import { useAuth } from '../context/AuthContext';
 import { Book, BookRequest } from '../utils/types';
